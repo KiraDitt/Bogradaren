@@ -1,11 +1,12 @@
 import bogradarIcon from './assets/BogradarenIkon.png'
 import './App.css'
 import Searchbar from './components/Searchbar'
-import MenuBar from './components/MenuBar'
+import Layout from './components/Layout'
 
 function App() {
   return (
     <>
+    <Layout>
         <div style={{
           position: 'absolute',
           top: '35px',
@@ -23,7 +24,7 @@ function App() {
             style={{ width: '350px', height: 'auto', alignItems: 'center' }}
           />
         </div>
-      <MenuBar />
+      </Layout>
     </>
   );
 }
