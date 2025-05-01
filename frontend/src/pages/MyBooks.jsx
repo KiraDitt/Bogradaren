@@ -1,4 +1,9 @@
+import Layout from "../components/Layout";
+
 export default function MyBooks () {
-    return (<>
-    </>);
+    return (
+    <Layout>
+
+    </Layout>
+    );
 }
